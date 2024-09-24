@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro';
+}
+h2{
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section{
+    padding: 0 7em;
+}
+.hero-section{
+    background-image: url(./images/Group\ 1bg-hero-section.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    width: 100%;
+    /* background-color: rgb(47, 48, 48); */
+    height: 160vh;
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 0.5em;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2.3em;
+    font-size: 0.8em;
+
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.hero-text{
+    text-align: center;
+    margin: 20vh 0;
+}
+.hero-text h1{
+    font-size: 13vmin;
+    font-weight: bolder;
+    /* margin-top: 20vh; */
+}
+.hero-text span:not(:last-child){
+    padding-right: 3em;
+}
+.hero-text button{
+    background-color: #C271FF;
+    border-radius: 5em;
+    padding: 1em 1.5em;
+    margin: 2em auto;
+    font-size: 0.7em;
+    color: white;
+    border: none;
+
+}
+/* /////////////////////////// hero section bottom */
+h2 span{
+    color: #C271FF ;
+    font-weight: bold;
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4em;
+}
+.card-container{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8em;
+}
+.card-container img{
+    border-radius: 5em;
+}
+.card-container h3{
+    font-weight: bold;
+    font-size: 1em;
+    padding: 1em 0 0.4em 0;
+}
+.card-container p{
+    font-size: 0.7em;
+    font-style: italic;
+    font-weight: 100;
+    color: white;
+    padding: 0 2em;
+    text-align: center;
+}
+/* /////////////////// ////////////////////////////*/
+.quote-section{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    background-color: #C271FF;
+    color: white;
+    padding: 0 11em;
+}
+.quote-section img{
+    border-radius: 5em;
+}
+.quote-section:nth-child(2) h3{
+    /* width: 90vw; */
+    font-weight: bold;
+    padding: 1.5em 0 0 0;
+}
+.quote-section:nth-child(2):not(h3){
+    font-style: italic;
+}
+/* /////////////////////////////// video section  */
+.video-container{
+    background-color: rgb(222, 184, 133);
+}
+.video-section h2{
+    font-weight: normal;
+}
+.feedback-owner{
+    justify-content: start;
+    gap: 1em;
+}
+.feedback-owner img{
+    border-radius: 5em;
+
+}
