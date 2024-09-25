@@ -224,6 +224,7 @@ h2 span{
 /* ///////////////////////////// faq-section //////////// */
 .faq-section{
     height: 100vh;
+    margin-bottom: 3em;
 }
 .faq-section h2{
     font-size: 3em;
@@ -242,4 +243,27 @@ h2 span{
     line-height: 1.5em;
     text-align: start;
     padding-bottom: 3em;
+}
+/* /////////////////////////////////// footer //////////////// */
+footer{
+    background-color: #071629;
+    padding: 4em 7em;
+}
+.icon-container i{
+    color: #071629;
+    font-size: 1.3em;
+    border-radius: 5em;
+    border: 6px solid white;
+    background-color: white;
+   
+}
+.icon-container{
+    justify-content: space-between;
+
+}
+footer section p{
+    text-align: center;
+    color: grey;
+    padding-top: 2em;
+    font-size: 0.7em;
 }
