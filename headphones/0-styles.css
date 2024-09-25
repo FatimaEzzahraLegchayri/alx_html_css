@@ -28,7 +28,6 @@
 /* ///////////////////////////////////////////  header ///////////////////// */
 header{
     justify-content: space-between;
-    /* background-color: #f9f9f9; */
     padding: 1em 13em ;
 }
 header img{
@@ -40,8 +39,7 @@ header img{
     background-image: url(./images/headphones_hero_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 100vh; */
-    /* width: 100%; */
+    background-position: center;
 }
 nav a{
     color: var(--white);
@@ -89,9 +87,40 @@ nav a:hover{
     opacity: 0.9;
     
 }
-.features{
+.card-container{
     padding: 3em 0;
+    justify-content: center;
+    gap: 4em;
 }
 .card .description{
     font-size: 0.6em;
+}
+/* ////////////////////////////////////////// result section ////////////// */
+.result-section{
+    background-image: url(./images/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: var(--white);
+}
+.result-card img{
+    width: 11.5em;
+    height: 11em;
+}
+.result-card{
+    position: relative;
+
+}
+.img-content{
+    position: absolute;
+    top: 3em;
+    left: 2em;
+    z-index: 1;
+}
+.img-content h4{
+    font-size: 3em;
+}
+.img-content p{
+    font-size: 0.7em;
+    padding-top: 1em;
 }
