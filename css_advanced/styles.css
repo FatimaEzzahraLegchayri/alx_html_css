@@ -64,11 +64,12 @@ li a{
 .hero-text button{
     background-color: #C271FF;
     border-radius: 5em;
-    padding: 1em 1.5em;
-    margin: 2em auto;
+    padding: 1.3em 1.5em;
+    margin: 5em auto;
     font-size: 0.7em;
     color: white;
     border: none;
+    box-shadow: 2px 2px 30px rgb(69, 67, 67);
 
 }
 /* /////////////////////////// hero section bottom */
@@ -115,7 +116,7 @@ h2 span{
     gap: 3em;
     background-color: #C271FF;
     color: white;
-    padding: 0 11em;
+    padding: 0 7em;
 }
 .quote-section img{
     border-radius: 5em;
@@ -129,17 +130,116 @@ h2 span{
     font-style: italic;
 }
 /* /////////////////////////////// video section  */
-.video-container{
-    background-color: rgb(222, 184, 133);
+.video-section{
+    gap: 20px;
+    margin-bottom: 5em;
 }
-.video-section h2{
+.tutorials-section h2{
     font-weight: normal;
+    padding: 3.5em ;
+}
+.video-container{
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid black; */
+}
+.video-container img{
+    position: relative;
+    width: 14em;
+    height: 7em;
+    margin: 0 auto;
+}
+.circle{
+    position: absolute;
+    top: 3em;
+    border-radius: 5em;
+    background-color: antiquewhite;
+    z-index: 1;
+}
+.description{
+    padding: 1em;
+}
+.description p{
+    font-size: 0.7em;
+    color: gray;
 }
 .feedback-owner{
-    justify-content: start;
-    gap: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 .feedback-owner img{
+    width: 2em;
+    height: 2em;
     border-radius: 5em;
-
+    margin: 0 0.3em 0 1em;
+}
+.feedback-owner h4{
+    font-size: 0.9em;
+    color: #C271FF;
+}
+.review-container{
+    justify-content: space-between;
+    padding: 0.8em 1em;
+}
+.review{
+    color: #C271FF;
+}
+.review i:last-child{
+    color: gray;
+}
+/* //////////////////////////////// membership-section /////////// */
+.membership-section{
+    background-color: #071629;
+    color: white;
+    padding: 3em ;
+}
+.membership-container{
+    padding: 5em 0;
+}
+.membership-container > div{
+    text-align: center;
+}
+.membership-container > div h3{
+    padding: 1em 0;
+    font-weight: normal;
+}
+.membership-container > div p{
+    font-size: 0.9em;
+    font-weight: lighter;
+    line-height: 1.5em;
+}
+.btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #C271FF;
+    border-radius: 5em;
+    padding: 1.3em 1.5em;
+    font-size: 0.7em;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 30px rgb(69, 67, 67);
+}
+/* ///////////////////////////// faq-section //////////// */
+.faq-section{
+    height: 100vh;
+}
+.faq-section h2{
+    font-size: 3em;
+    font-weight: 600px;
+    padding: 1.5em;
+}
+.faq-container{
+    gap: 5em;
+}
+.faq h3{
+    padding: 1em 0;
+}
+.faq p{
+    color: gray;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    text-align: start;
+    padding-bottom: 3em;
 }
