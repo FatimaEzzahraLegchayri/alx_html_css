@@ -140,20 +140,25 @@ h2 span{
 }
 .video-container{
     background-color: rgb(255, 255, 255);
+    position: relative;
     /* border: 1px solid black; */
 }
 .video-container img{
-    position: relative;
+    /* position: relative; */
     width: 14em;
     height: 7em;
     margin: 0 auto;
 }
 .circle{
     position: absolute;
-    top: 3em;
+    top: 2.5em;
+    left: 40%;
+    height: 2.5em;
+    width: 2.5em;
     border-radius: 5em;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 254);
     z-index: 1;
+    opacity: 80%;
 }
 .description{
     padding: 1em;
