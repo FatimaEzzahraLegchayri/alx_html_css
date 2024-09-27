@@ -1,0 +1,8 @@
+.card-container{
+    padding: 3em 0;
+    justify-content: center;
+    gap: 4em;
+}
+.card .description{
+    font-size: 0.6em;
+}

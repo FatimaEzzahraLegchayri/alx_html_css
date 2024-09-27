@@ -41,7 +41,6 @@ header{
     cursor: pointer;
 }
 .hero-section-container{
-    /* position: relative; */
     background-image: url(./images/headphones_hero_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,77 +91,7 @@ nav a:hover{
     opacity: 0.9;
     
 }
-.card-container{
-    padding: 3em 0;
-    justify-content: center;
-    gap: 4em;
-}
-.card .description{
-    font-size: 0.6em;
-}
-/* ////////////////////////////////////////// result section ////////////// */
-.result-section{
-    background-image: url(./images/headphones_hero_2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: var(--white);
-}
-.result-card img{
-    width: 11.5em;
-    height: 11em;
-}
-.result-card{
-    position: relative;
-
-}
-.img-content{
-    position: absolute;
-    top: 3em;
-    left: 2em;
-    z-index: 1;
-}
-.img-content h4{
-    font-size: 3em;
-}
-.img-content p{
-    font-size: 0.7em;
-    padding-top: 1em;
-}
-.input-container{
-    display: flex;
-    flex-direction: column;
-    gap: 1.5em;
-    padding: 2em 0;
-    margin: 0 auto;
-    width: 50%;
-}
-.input-container input{
-    border: none;
-    padding: 1em ;
-    box-shadow: 0 1px 1px rgb(170, 168, 168);
-    outline: none;
-}
-.input-container input::placeholder{
-    font-weight: bold;
-}
-footer{
-    height: 30vh;
-    width: 100vw;
-    background-color: #071629;
-    padding: 2em 7em;
-}
-.footer-top{
-    justify-content: space-between;
-    padding: 1em 7em;
-
-}
-footer p{
-    color: gray;
-}
-.icons i{
-    color: #071629;
-    background-color: #ffffff;
-    border-radius: 5em;
-    padding: 0.3em;
+.menu{
+    background-color: red;
+    color: #FF6565;
 }
