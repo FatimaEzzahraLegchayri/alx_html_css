@@ -16,7 +16,6 @@
 .flex{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
 }
 .center{
     text-align: center;
@@ -90,8 +89,38 @@ nav a:hover{
 .hero-section button:hover{
     opacity: 0.9;
     
+} 
+#check{
+    display: none;
 }
 .menu{
-    background-color: red;
-    color: #FF6565;
+    font-size: 2em;
+    display: none;
+}
+
+
+@media screen and (max-width : 480px) {
+    header{
+        padding: 1em;
+    }
+    .menu{
+        display: block;
+    }
+    nav{
+        position: fixed;
+        top: 4em;
+        left: -100em;
+        width: 70vw;
+        height: 60vh;
+        backdrop-filter: blur(3px);
+    }
+    nav a{
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        padding: 1em 0;
+    }
+    #check:checked ~ nav{
+        left: 3em;
+    }
 }
