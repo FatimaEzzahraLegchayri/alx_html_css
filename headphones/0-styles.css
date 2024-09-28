@@ -102,6 +102,8 @@ nav a:hover{
 @media screen and (max-width : 480px) {
     header{
         padding: 1em;
+        justify-content: start;
+        gap: 4em;
     }
     .menu{
         display: block;
@@ -112,7 +114,7 @@ nav a:hover{
         left: -100em;
         width: 70vw;
         height: 60vh;
-        backdrop-filter: blur(3px);
+        backdrop-filter: blur(5px);
     }
     nav a{
         display: block;
@@ -122,5 +124,21 @@ nav a:hover{
     }
     #check:checked ~ nav{
         left: 3em;
+    }
+    .hero-section {
+        padding: 20em 0.3em;
+    }
+    .hero-section-container{
+        background-position-x: 35%;
+        height: 100vh;
+    }
+    .title{
+        font-size: 1.7em;
+    }
+    .sub-title{
+        padding: 0.3em 5em;
+    }
+    .description{
+        width: 100%;
     }
 }
