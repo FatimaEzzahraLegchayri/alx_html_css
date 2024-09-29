@@ -27,6 +27,7 @@
 }
 /* ///////////////////////////////////////////  header ///////////////////// */
 header{
+    display: flex;
     justify-content: space-between;
     padding: 1em 13em ;
     position: fixed;
@@ -132,9 +133,7 @@ nav a:hover{
         background-position-x: 35%;
         height: 100vh;
     }
-    .title{
-        font-size: 1.7em;
-    }
+
     .sub-title{
         padding: 0.3em 5em;
     }
@@ -202,4 +201,84 @@ nav a:hover{
 }
 .input-container input::placeholder{
     font-weight: bold;
+}
+
+footer{
+    height: 30vh;
+    width: 100vw;
+    background-color: #071629;
+    padding: 2em 7em;
+}
+.footer-top{
+    justify-content: space-between;
+    padding: 1em 7em;
+
+}
+footer p{
+    color: gray;
+}
+.icons i{
+    color: #071629;
+    background-color: #ffffff;
+    border-radius: 5em;
+    padding: 0.3em;
+}
+/* ////////////////////////////////// responsive body  */
+@media screen and (max-width : 480px) {
+    .section{
+        padding: 2em 1em;
+        height: fit-content;
+    }
+    .flex{
+        display: block;
+    }
+    .card-container{
+        padding: 1em 0;
+    }
+    .description{
+        padding: 2em;
+    }
+    .card .description{
+        width: 60%;
+    }
+    .card{
+        padding: 1em 0;
+        height: 20vh;
+    }
+    .title{
+        padding: 1em 1.5em;
+    }
+    .img-content{
+        left: 7em;
+    }
+    .card-container p{
+        width: 100%;
+    }
+    .result-card{
+        padding: 1em 0;
+    }
+    .input-container{
+        width: 100% ;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+    }
+    .footer-top{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        overflow-x: hidden;
+  
+    }
 }
