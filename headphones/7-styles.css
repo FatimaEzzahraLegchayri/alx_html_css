@@ -1,14 +1,3 @@
-.pentagon {
-    position: relative;
-    left: 0em;
-    top: 0em;
-    height: 10em;
-    width: 10em;
-    background-color: #FF565E;
-    /* clip-path: polygon(30px 40%, 100% 0, 100% 100%, 0 100%, -50% -50% ); */
-    clip-path: polygon(15% 0%, 85% 0%, 100% 60%, 50% 100%, 0% 60% );
-    transform: rotate(180deg);
-}
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 :root{
     --saumo : #FF6565;
@@ -182,7 +171,6 @@ nav a:hover{
     top: 3em;
     left: 2em;
     z-index: 1;
-    transform: rotate(180deg);
 }
 .img-content h4{
     font-size: 3em;
@@ -294,3 +282,37 @@ footer p{
   
     }
 }
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.result-card {
+    animation: bounce 2s infinite;
+    transition: transform 0.3s ease-in-out;
+}
+
+.result-card:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.result-card:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.result-card:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.result-card:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
